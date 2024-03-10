@@ -1,0 +1,27 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(./fonts/Norse-Bold.otf);
+}
+
+body {
+    display: flex;
+}
+
+#background {
+    width: 40vw;
+}
+
+#logo-div {
+    position: relative;
+    width: 40vw;
+}
+
+#logo-image,
+#logo-text {
+    position: relative;
+}
+
+#background-image img {
+    width: 100%;
+    object-fit: cover;
+}
