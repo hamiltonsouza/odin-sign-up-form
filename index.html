@@ -5,21 +5,23 @@
         <title>Odin | Sign Up Form</title>
     </head>
     <body>
-        <div>
+        <div id="logo-div">
             <div>
-                <img src="./img/odin-lined.png" alt="Lined Odin Project logo">
-                <p>Odin</p>
+                <img id="logo-image" src="./img/odin-lined.png" alt="Lined Odin Project logo">
+                <p id="logo-text">Odin</p>
             </div>
             <div>
-                <img src="./img/jons-photo-unsplash.jpg" alt="Landscape Photography of mountains">
-                <p>Photo by <a href="https://unsplash.com/@j_mk18?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jon</a> on <a href="https://unsplash.com/photos/landscape-photography-of-mountains-r8AFUpRp0J0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
+                <img id="background-image" src="./img/jons-photo-unsplash.jpg" alt="Landscape Photography of mountains">
+                <p id="background-image-credits" >Photo by <a href="https://unsplash.com/@j_mk18?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jon</a> on <a href="https://unsplash.com/photos/landscape-photography-of-mountains-r8AFUpRp0J0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
             </div>            
         </div>
-        <div>
-            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
-            <p>You <em>know</em> you want to.</p>
+        <div id="container">
+            <div id="call-to-action-text">
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+                <p>You <em>know</em> you want to.</p>
+            </div>
             <form>
-                <section>
+                <section id="form-content">
                     <h1>Let's do this!</h1>
                     <p>
                         <label for="first-name">
@@ -57,9 +59,9 @@
                         </label>
                         <input type="password" name="password-confirmation" id="password-confirmation" required>
                     </p>
-                    <button type="submit">Create Account</button>
-                    <p>Already have an account? <a href="">Log in</a></p>
                 </section>
+                <button type="submit">Create Account</button>
+                <p>Already have an account? <a href="">Log in</a></p>
             </form>
         </div>
     </body>
