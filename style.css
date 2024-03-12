@@ -85,7 +85,7 @@ body {
 }
 
 #form {
-    padding: 1.5rem 2.5rem;
+    padding: 1.5rem 2.5rem 2.5rem;
     box-shadow: 0px 3px 5px 1px #00000030;
 }
 
@@ -121,6 +121,10 @@ body {
     outline: none;
     border: solid purple 1px;
     box-shadow: 0px 3px 5px 1px #00000030;
+}
+
+.form-input input:invalid:focus {
+    border: solid red 1px;
 }
 
 #form-button {
