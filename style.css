@@ -84,8 +84,42 @@ body {
     font-weight: 550;
 }
 
-#form-content {
+#form {
     padding: 1.5rem 2.5rem;
+    box-shadow: 0px 3px 5px 1px #00000030;
+}
+
+#form-content {
+    width: 32rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1.2rem;
+}
+
+#form-title {
+    width: 100%;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    width: 14rem;
+    font-size: 0.8rem;
+    font-weight: 550;
+    color: #555555;
+}
+
+.form-input input {
+    height: 1.5rem;
+    border: solid #EDEDED 1px;
+    border-radius: 5px;
+    padding: 2px 8px;
+}
+
+.form-input input:focus {
+    outline: none;
+    border: solid purple 1px;
     box-shadow: 0px 3px 5px 1px #00000030;
 }
 
